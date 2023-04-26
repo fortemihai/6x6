@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Multiplication Table App">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Fortemihai">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>6x6</title>
+	<link rel="stylesheet" href="style.css">
+	
+	
+</head>
+<body>
+
+<div id="mainWrapper">
+<div id="counterWrapper">
+
+No answer has been given.
+
+</div><!-- end of counter wrapper -->
+
+<div id="contentWrapper"> <!-- holds the main game, will disappear for 3 seconds after a response is given,then reappear-->
+
+	<div id="firstOperandWrapper">
+		6
+	</div><!-- end of first operand wrapper	-->
+
+	<div id="operatorWrapper">
+		*
+	</div> <!-- end of operator wrapper	-->
+
+	<div id="secondOperandWrapper">
+		6
+	</div> <!-- end of second operand wrapper -->
+
+	<div id="equalsToWrapper">
+		=
+	</div> <!-- end of equal sign wrapper	-->
+
+<div id="resultWrapper">
+	<input type="text" id="resultInput" name="resInput" placeholder="" size="3" maxlength="3">
+	<button type="button" id="submitButton" value=" ">
+		Send your answer!
+	</button>
+</div> <!-- end of result wrapper -->
+
+
+</div><!-- end of content wrapper	-->
+
+<div id="resultVerdictWrapper">
+</div> <!-- end of result verdict swrapper	-->
+
+</div> <!-- end of main wrapper	-->
+
+<script src="script.js"></script>
+
+</body>
+</html>
